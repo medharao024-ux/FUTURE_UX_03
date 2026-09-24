@@ -1,33 +1,47 @@
-# future-ux-3
+NOVA CRM – Agency Client Management Dashboard
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+A modern CRM dashboard UI designed for small agencies and B2B service teams to manage leads, sales pipelines, clients, tasks, follow-ups, and team activities in one centralized workspace.
 
-## Built with v0
+🚀 Features
+Dashboard – Overview of CRM performance, KPIs, pipeline and activities
+Lead Management – Search, filter and manage leads
+Sales Pipeline – Kanban-style lead pipeline with different stages
+Client Management – Client list with engagement and project status
+Client Profiles – Contact details, projects, contract information and notes
+Tasks & Follow-ups – Track tasks, priorities, due dates and completion
+Activity Tracking – Monitor recent CRM activities
+Settings – Manage CRM preferences
+Design Rationale – Explains workflow logic, usability choices and real-world use cases
+Responsive UI – Designed for desktop and smaller screens
+🛠️ Tech Stack
+Next.js
+React
+TypeScript
+Tailwind CSS
+Lucide React
+Vercel
+GitHub
+📂 Main Pages
+Dashboard
+├── Overview
+├── Leads
+├── Pipeline
+├── Clients
+│   └── Client Profile
+├── Tasks & Follow-ups
+├── Activity
+├── Settings
+└── Design Rationale
+🎯 Design Goal
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+The goal of NOVA CRM is to reduce the need for multiple separate tools by providing a single workspace for lead tracking, sales management, client relationships, project monitoring and follow-up activities.
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_l9AACHn4vBTJwpNFnytbfXx4MKj8)
+🌐 Deployment
 
-## Getting Started
+The project is hosted using Vercel and connected to GitHub for continuous deployment.
 
-First, run the development server:
+👩‍💻 Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+NOVA CRM – Agency Client Management Dashboard UI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+Built as a UI/UX project focusing on B2B SaaS dashboard design, workflow-based UX, data visualization and usability.
